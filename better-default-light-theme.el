@@ -4,7 +4,7 @@
 
 ;; Author: Greduan <eduan@websharks-inc.com>
 ;; URL: https://github.com/Greduan/emacs-theme-better-defaults
-;; Version: 0.0.0
+;; Version: 0.1.0
 
 ;; Permission to use, copy, modify, and/or distribute this software for any
 ;; purpose with or without fee is hereby granted, provided that the above
@@ -26,7 +26,12 @@
 
 ;;; Code:
 
+(unless (>= 24 emacs-major-version)
+  (error "requires Emacs 24 or later."))
 
+(deftheme better-default-light "Better, light version of default theme")
+
+;()
 
 ;;;###autoload
 (and load-file-name

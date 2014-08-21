@@ -4,7 +4,7 @@
 
 ;; Author: Greduan <eduan@websharks-inc.com>
 ;; URL: https://github.com/Greduan/emacs-theme-better-defaults
-;; Version: 0.1.0
+;; Version: 0.2.0
 
 ;; Permission to use, copy, modify, and/or distribute this software for any
 ;; purpose with or without fee is hereby granted, provided that the above
@@ -20,9 +20,7 @@
 
 ;;; Commentary:
 
-;; I like the default Emacs themes (the white and black background ones), but
-;; they don't support all of the faces and stuff, so I decided to make themes
-;; based on the default colors.
+;; See README.md file.
 
 ;;; Code:
 
@@ -31,19 +29,15 @@
 
 (deftheme better-default-dark "Better, dark version of default theme")
 
-(let ((comment-fg "chocolate1")
-      (default-bg "black")
+(let ((default-bg "black")
       (default-fg "white")
-      (keyword-fg "Cyan1")
-      (error-warning-fg "Pink") ;; :weight bold
-      (string-fg "LightSalmon")
-      (type-fg "PaleGreen")
-      (builtin-fg "LightSteelBlue"))
+      (region-bg "gray11"))
 
   (custom-theme-set-faces
    'better-default-dark
 
-   `(default ((t (:background ,default-bg :foreground ,default-fg))))))
+   `(default ((t (:background ,default-bg :foreground ,default-fg))))
+   `(region ((t (:background ,region-bg))))))
 
 ;;;###autoload
 (and load-file-name

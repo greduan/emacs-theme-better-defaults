@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.2.0 - 2014-08-21
+
+### Added
+
+- Dark version of theme got a new, better background for the selected region's
+  face.  Meant to mimic the color of the default light version of the theme.
+
+### Deprecated
+
+Nothing.
+
+### Removed
+
+Nothing.
+
+### Fixed
+
+Nothing.
+
 ## 0.1.0 - 2014-08-16
 
 ### Added

@@ -4,7 +4,7 @@
 
 ;; Author: Greduan <eduan@websharks-inc.com>
 ;; URL: https://github.com/Greduan/emacs-theme-better-defaults
-;; Version: 0.1.0
+;; Version: 0.2.0
 
 ;; Permission to use, copy, modify, and/or distribute this software for any
 ;; purpose with or without fee is hereby granted, provided that the above
@@ -20,9 +20,7 @@
 
 ;;; Commentary:
 
-;; I like the default Emacs themes (the white and black background ones), but
-;; they don't support all of the faces and stuff, so I decided to make themes
-;; based on the default colors.
+;; See README.md file.
 
 ;;; Code:
 

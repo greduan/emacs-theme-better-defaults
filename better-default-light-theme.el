@@ -4,7 +4,7 @@
 
 ;; Author: Greduan <eduan@websharks-inc.com>
 ;; URL: https://github.com/Greduan/emacs-theme-better-defaults
-;; Version: 0.2.0
+;; Version: 0.3.0
 
 ;; Permission to use, copy, modify, and/or distribute this software for any
 ;; purpose with or without fee is hereby granted, provided that the above

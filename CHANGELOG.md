@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.3.0 - 2014-08-22
+
+### Added
+
+- Dark version got a current line highlight added.
+- Dark version region highlight changed a bit.
+
+### Deprecated
+
+Nothing.
+
+### Removed
+
+Nothing.
+
+### Fixed.
+
+Nothing.
+
 ## 0.2.0 - 2014-08-21
 
 ### Added
